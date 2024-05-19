@@ -18,6 +18,12 @@ public class Home_page {
 	@FindBy(xpath = "(//div[@class='inventory_item_price'])[2]")
 	public WebElement secondItemPrice;
 
+	@FindBy(xpath = "(//div[@class='inventory_item_price'])[3]")
+	public WebElement firstPurchaseItemPrice;
+
+	@FindBy(xpath = "(//div[@class='inventory_item_price'])[4]")
+	public WebElement secondPurchaseItemPrice;
+
 	public Home_page(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -46,6 +52,18 @@ public class Home_page {
 	// getSecondItemPrice
 	public String getSecondItemPrice() {
 		return secondItemPrice.getText();
+
+	}
+
+	// getFirstPurchaseItem
+	public String getFirstPurchaseItemPrice() {
+		return firstPurchaseItemPrice.getText();
+
+	}
+
+	// getSecondPurchaseItem
+	public String getSecondPurchaseItemPrice() {
+		return secondPurchaseItemPrice.getText();
 
 	}
 

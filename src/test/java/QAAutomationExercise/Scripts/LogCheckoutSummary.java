@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -27,6 +26,8 @@ public class LogCheckoutSummary {
 	public static final String postal_Code = "+95";
 	public static final Logger logger = LogManager.getLogger();
 	Login_page login_page;
+	Home_page home_page;
+	
 	@BeforeClass
 	public void beforeClass() {
 		System.setProperty("webdriver.chrome.driver", "resources\\chromedriver.exe");
@@ -49,6 +50,7 @@ public class LogCheckoutSummary {
 	@Test
 	public void logCheckoutSummary() throws InterruptedException {		
 		login_page = new Login_page(driver);
+		home_page = new Home_page(driver);
         //login to SwagLabs
 		login_page.checkLabelAndButtonDisplay();
 		login_page.loginToSwagLabs(loginUserName, loginPassword);
@@ -66,20 +68,19 @@ public class LogCheckoutSummary {
 		Thread.sleep(1000);
 
 		//Choose option to sort
-		Select selectOption = new Select(driver.findElement(By.xpath("//select[@class='product_sort_container']")));
-		selectOption.selectByValue("hilo");
+		home_page.sortByPriceHightoLow();
 		logger.info("Sorting from High to Low Price");
 
 		//to get First Item Price
-		String firstItemPrice = driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[3]")).getText();
+		String firstItemPrice = home_page.getFirstPurchaseItemPrice();
 		System.out.println("firstItemPrice ==== " + firstItemPrice);
 		Assert.assertEquals(firstItemPrice, expectedPrice);
 		logger.info("First Item Price => " + firstItemPrice);
 		
 		
 		// to get Second Item Price
-		String secondItemPrice = driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[4]")).getText();
-		System.out.println("secondPrice ==== " + secondItemPrice);
+		String secondItemPrice = home_page.getSecondPurchaseItemPrice();
+		System.out.println("secondItemPrice ==== " + secondItemPrice);
 		Assert.assertEquals(secondItemPrice, expectedPrice);
 		logger.info("Second Item Price => " + secondItemPrice);
 		

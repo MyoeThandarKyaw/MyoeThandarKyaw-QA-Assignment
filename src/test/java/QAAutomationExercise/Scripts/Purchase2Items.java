@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 
 public class Purchase2Items {
@@ -24,6 +23,7 @@ public class Purchase2Items {
 	public static final String postal_Code = "+95";
 	public static final String expectedMessage = "Thank you for your order!";
 	Login_page login_page;
+	Home_page home_page;
 
 	@BeforeClass
 	public void beforeClass() {
@@ -48,28 +48,28 @@ public class Purchase2Items {
 	public void purchase2Items() throws InterruptedException {
 
 		login_page = new Login_page(driver);
-        //login to SwagLabs
+		home_page = new Home_page(driver);
+		// login to SwagLabs
 		login_page.checkLabelAndButtonDisplay();
 		login_page.loginToSwagLabs(loginUserName, loginPassword);
 
-		//Check Expected and Actual result
+		// Check Expected and Actual result
 		Assert.assertEquals(login_page.getActualOnlineShopName(), expectedOnlineShopName);
 
 		// wait 1 second
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 
 		// Choose option to sort
-		Select selectOption = new Select(driver.findElement(By.xpath("//select[@class='product_sort_container']")));
-		selectOption.selectByValue("hilo");
-
-		// to get First Item Price
-		String firstItemPrice = driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[3]")).getText();
-		System.out.println("FirstItemPrice ==== " + firstItemPrice);
+		home_page.sortByPriceHightoLow();
+		
+		// to get first item price
+		String firstItemPrice = home_page.getFirstPurchaseItemPrice();
+		System.out.println("firstItemPrice ==== " + firstItemPrice);
 		Assert.assertEquals(firstItemPrice, expectedPrice);
 
-		// to get Second Item Price
-		String secondItemPrice = driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[4]")).getText();
-		System.out.println("SecondItemPrice ==== " + secondItemPrice);
+		// to get second item price
+		String secondItemPrice = home_page.getSecondPurchaseItemPrice();
+		System.out.println("secondItemPrice ==== " + secondItemPrice);
 		Assert.assertEquals(secondItemPrice, expectedPrice);
 
 		double price1 = Double.parseDouble(firstItemPrice.replaceAll("[$,]", ""));
@@ -77,7 +77,7 @@ public class Purchase2Items {
 
 		double price2 = Double.parseDouble(secondItemPrice.replaceAll("[$,]", ""));
 		System.out.println("Price2 ==== " + price2);
-		// Assert.assertTrue(price1>price2);
+		
 
 		// Click first Add to Cart button
 		driver.findElement(By.xpath("(//button[text()='Add to cart'])[3]")).click();
@@ -104,7 +104,8 @@ public class Purchase2Items {
 
 		// Check total amount is the same as Total amount = Price1+Price2
 		String totalAmount = driver.findElement(By.className("summary_subtotal_label")).getText();
-		//String totalAmount = driver.findElement(By.xpath("//div[@class='summary_subtotal_label']")).getText();
+		// String totalAmount =
+		// driver.findElement(By.xpath("//div[@class='summary_subtotal_label']")).getText();
 		// System.out.println("TotalAmount on website==== " + totalAmount);
 		double totalAmountonWebsite = Double.parseDouble(totalAmount.split("(\\$ | \\$\\s*)")[1]);
 		System.out.println("TotalAmount on website==== " + totalAmountonWebsite);
