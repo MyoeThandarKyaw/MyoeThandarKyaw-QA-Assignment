@@ -3,11 +3,9 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 
 public class SortByPrice_HightoLow {
@@ -17,6 +15,7 @@ public class SortByPrice_HightoLow {
 	public static final String loginPassword = "secret_sauce";
 	public static final String expectedOnlineShopName = "Swag Labs";
 	Login_page login_page;
+	Home_page home_page;
 	
 	@BeforeClass
 	public void beforeClass() {
@@ -41,6 +40,7 @@ public class SortByPrice_HightoLow {
 	public void sortByPrice_HightoLow() throws InterruptedException {
 		
 		login_page = new Login_page(driver);
+		home_page = new Home_page(driver);
         //login to SwagLabs
 		login_page.checkLabelAndButtonDisplay();
 		login_page.loginToSwagLabs(loginUserName, loginPassword);
@@ -51,16 +51,15 @@ public class SortByPrice_HightoLow {
 		//wait 1 second
 		Thread.sleep(1000);
 		
-		//Choose option to sort
-		Select selectOption = new Select(driver.findElement(By.xpath("//select[@class='product_sort_container']")));	
-		selectOption.selectByValue("hilo");
+		//Choose option to sort		
+		home_page.sortByPriceHightoLow();
 		
-		//to get first price
-		String firstPrice= driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[1]")).getText();
+		//to get first item price
+		String firstPrice= home_page.getFirstItemPrice();
 		System.out.println("firstPrice ==== "+firstPrice);
 		
 		//to get second price
-		String secondPrice= driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[2]")).getText();
+		String secondPrice= home_page.getSecondItemPrice();
 		System.out.println("secondPrice ==== "+secondPrice);
 		
 		

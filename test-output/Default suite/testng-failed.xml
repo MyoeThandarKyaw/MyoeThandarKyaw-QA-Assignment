@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="QAAutomationExercise.Scripts.Purchase2Items">
+      <class name="QAAutomationExercise.Scripts.SortByPrice_LowtoHigh">
         <methods>
-          <include name="purchase2Items"/>
+          <include name="sortByPrice_LowtoHigh"/>
+          <include name="beforeMethod"/>
           <include name="afterMethod"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
-          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- QAAutomationExercise.Scripts.Purchase2Items -->
+      </class> <!-- QAAutomationExercise.Scripts.SortByPrice_LowtoHigh -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

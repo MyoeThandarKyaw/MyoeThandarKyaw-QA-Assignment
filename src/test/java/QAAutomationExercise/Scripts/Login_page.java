@@ -50,6 +50,7 @@ public class Login_page {
 		onClick();
 	}
 	
+	//get Login Website
 	public String getActualOnlineShopName() {
 		return actualOnlineShopName.getText();
 
