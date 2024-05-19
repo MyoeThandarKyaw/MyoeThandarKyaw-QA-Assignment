@@ -57,8 +57,8 @@ public class LogCheckoutSummary {
 		logger.info("loginPassword => " + loginPassword);
 		logger.info("login online shop website");
 		
-		String actualOnlineShopName = driver.findElement(By.xpath("//div[@class='app_logo']")).getText();
-		System.out.println("actualOnlineShopName ==== " + actualOnlineShopName);
+		String actualOnlineShopName = login_page.getActualOnlineShopName();
+		//Check Expected and Actual result
 		Assert.assertEquals(actualOnlineShopName, expectedOnlineShopName);
 		logger.info("Online Shop Name => " + actualOnlineShopName);
 		

@@ -44,10 +44,9 @@ public class CheckLogoutSuccessful {
 		//login to SwagLabs
 		login_page.checkLabelAndButtonDisplay();
 		login_page.loginToSwagLabs(loginUserName, loginPassword);
-
-		String actualOnlineShopName = driver.findElement(By.xpath("//div[@class='app_logo']")).getText();
-		System.out.println("actualOnlineShopName ==== " + actualOnlineShopName);
-		Assert.assertEquals(actualOnlineShopName, expectedOnlineShopName);
+		
+		//Check Expected and Actual result
+		Assert.assertEquals(login_page.getActualOnlineShopName(), expectedOnlineShopName);
 
 		// Click Menu Button
 		driver.findElement(By.id("react-burger-menu-btn")).click();

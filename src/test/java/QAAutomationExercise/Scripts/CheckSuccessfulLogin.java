@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -44,10 +43,9 @@ public class CheckSuccessfulLogin {
 		//login to SwagLabs
 		login_page.checkLabelAndButtonDisplay();
 		login_page.loginToSwagLabs(loginUserName, loginPassword);
-
-		String actualOnlineShopName = driver.findElement(By.xpath("//div[@class='app_logo']")).getText();
-		System.out.println("actualOnlineShopName ==== " + actualOnlineShopName);
-		Assert.assertEquals(actualOnlineShopName, expectedOnlineShopName);
+		
+		//Check Expected and Actual result
+		Assert.assertEquals(login_page.getActualOnlineShopName(), expectedOnlineShopName);
 	}
 
 

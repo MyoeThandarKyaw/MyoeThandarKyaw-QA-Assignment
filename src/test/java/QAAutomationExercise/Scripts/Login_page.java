@@ -16,6 +16,9 @@ public class Login_page {
 
 	@FindBy(id = "login-button")
 	public WebElement login_button;
+	
+	@FindBy(xpath = "//div[@class='app_logo']")
+	public WebElement actualOnlineShopName;
 
 	public Login_page(WebDriver driver) {
 		this.driver = driver;
@@ -45,6 +48,11 @@ public class Login_page {
 		passwordInput.sendKeys(password);
 
 		onClick();
+	}
+	
+	public String getActualOnlineShopName() {
+		return actualOnlineShopName.getText();
+
 	}
 
 }

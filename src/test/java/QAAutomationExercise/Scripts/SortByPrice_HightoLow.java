@@ -45,9 +45,8 @@ public class SortByPrice_HightoLow {
 		login_page.checkLabelAndButtonDisplay();
 		login_page.loginToSwagLabs(loginUserName, loginPassword);
 		
-		String actualOnlineShopName= driver.findElement(By.xpath("//div[@class='app_logo']")).getText();
-		System.out.println("actualOnlineShopName ==== "+actualOnlineShopName);
-		Assert.assertEquals(actualOnlineShopName, expectedOnlineShopName);
+		//Check Expected and Actual result
+		Assert.assertEquals(login_page.getActualOnlineShopName(), expectedOnlineShopName);
 		
 		//wait 1 second
 		Thread.sleep(1000);
