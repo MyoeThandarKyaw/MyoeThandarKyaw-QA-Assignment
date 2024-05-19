@@ -25,7 +25,7 @@ public class LogCheckoutSummary {
 	public static final String first_Name = "Myoe Thandar";
 	public static final String last_Name = "Kyaw";
 	public static final String postal_Code = "+95";
-	protected static final Logger logger = LogManager.getLogger();
+	public static final Logger logger = LogManager.getLogger();
 	Login_page login_page;
 	@BeforeClass
 	public void beforeClass() {

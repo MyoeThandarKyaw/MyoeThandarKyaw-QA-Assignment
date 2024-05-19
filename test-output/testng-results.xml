@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T14:49:29 MMT" name="Default suite" finished-at="2024-05-19T14:49:38 MMT" duration-ms="8671">
+  <suite started-at="2024-05-19T14:56:08 MMT" name="Default suite" finished-at="2024-05-19T14:56:20 MMT" duration-ms="11458">
     <groups>
     </groups>
-    <test started-at="2024-05-19T14:49:29 MMT" name="Default test" finished-at="2024-05-19T14:49:38 MMT" duration-ms="8671">
+    <test started-at="2024-05-19T14:56:08 MMT" name="Default test" finished-at="2024-05-19T14:56:20 MMT" duration-ms="11458">
       <class name="QAAutomationExercise.Scripts.LogCheckoutSummary">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@75390459]" started-at="2024-05-19T14:49:29 MMT" name="beforeClass" finished-at="2024-05-19T14:49:31 MMT" duration-ms="1990" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T14:56:08 MMT" name="beforeClass" finished-at="2024-05-19T14:56:10 MMT" duration-ms="2145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@75390459]" started-at="2024-05-19T14:49:31 MMT" name="beforeMethod" finished-at="2024-05-19T14:49:32 MMT" duration-ms="1155" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T14:56:10 MMT" name="beforeMethod" finished-at="2024-05-19T14:56:14 MMT" duration-ms="4026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="logCheckoutSummary()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@75390459]" started-at="2024-05-19T14:49:32 MMT" name="logCheckoutSummary" finished-at="2024-05-19T14:49:37 MMT" duration-ms="5066" status="PASS">
+        <test-method signature="logCheckoutSummary()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T14:56:14 MMT" name="logCheckoutSummary" finished-at="2024-05-19T14:56:19 MMT" duration-ms="4964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logCheckoutSummary -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@75390459]" started-at="2024-05-19T14:49:37 MMT" name="afterClass" finished-at="2024-05-19T14:49:38 MMT" duration-ms="388" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T14:56:19 MMT" name="afterClass" finished-at="2024-05-19T14:56:20 MMT" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
