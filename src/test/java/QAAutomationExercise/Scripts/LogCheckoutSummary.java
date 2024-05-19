@@ -142,14 +142,14 @@ public class LogCheckoutSummary {
 		// Check total amount is the same as Total amount = Price1+Price2
 		//String totalAmount = driver.findElement(By.xpath("//div[@class='summary_subtotal_label']")).getText();
 		String totalAmount = driver.findElement(By.className("summary_subtotal_label")).getText();
-		String totalAmountonWebsite = totalAmount.substring(12, totalAmount.length());
+		double totalAmountonWebsite = Double.parseDouble(totalAmount.split("(\\$ | \\$\\s*)")[1]);
 		System.out.println("TotalAmount on website==== " + totalAmountonWebsite);
 		logger.info("TotalAmount on website => "+totalAmountonWebsite);
 		
 		// Sum Price 1 and Price 2
-		String priceTotal = String.valueOf(price1 + price2);
-		String actualTotalAmount = "$" + priceTotal;
+		double actualTotalAmount = price1 + price2;
 		System.out.println("Actual Total Amount ==== " + actualTotalAmount);
+		Assert.assertEquals(totalAmountonWebsite, actualTotalAmount);
 		logger.info("ActualTotalAmount => "+actualTotalAmount);
 		
 		Assert.assertEquals(totalAmountonWebsite, actualTotalAmount);

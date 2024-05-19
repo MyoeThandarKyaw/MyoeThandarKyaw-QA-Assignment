@@ -1,137 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T15:45:58 MMT" name="Suite" finished-at="2024-05-19T15:46:43 MMT" duration-ms="44673">
+  <suite started-at="2024-05-19T15:58:42 MMT" name="Default suite" finished-at="2024-05-19T15:58:56 MMT" duration-ms="14437">
     <groups>
     </groups>
-    <test started-at="2024-05-19T15:45:58 MMT" name="PurchasefromOnlineShop" finished-at="2024-05-19T15:46:43 MMT" duration-ms="44673">
-      <class name="QAAutomationExercise.Scripts.SortByPrice_HightoLow">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_HightoLow@4fb3ee4e]" started-at="2024-05-19T15:46:25 MMT" name="beforeClass" finished-at="2024-05-19T15:46:26 MMT" duration-ms="1188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_HightoLow@4fb3ee4e]" started-at="2024-05-19T15:46:26 MMT" name="beforeMethod" finished-at="2024-05-19T15:46:28 MMT" duration-ms="1017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="sortByPrice_HightoLow()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_HightoLow@4fb3ee4e]" started-at="2024-05-19T15:46:28 MMT" name="sortByPrice_HightoLow" finished-at="2024-05-19T15:46:31 MMT" duration-ms="3282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortByPrice_HightoLow -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_HightoLow@4fb3ee4e]" started-at="2024-05-19T15:46:31 MMT" name="afterClass" finished-at="2024-05-19T15:46:31 MMT" duration-ms="286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- QAAutomationExercise.Scripts.SortByPrice_HightoLow -->
-      <class name="QAAutomationExercise.Scripts.CheckSuccessfulLogin">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.CheckSuccessfulLogin@7e7be63f]" started-at="2024-05-19T15:45:58 MMT" name="beforeClass" finished-at="2024-05-19T15:46:00 MMT" duration-ms="2065" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.CheckSuccessfulLogin@7e7be63f]" started-at="2024-05-19T15:46:00 MMT" name="beforeMethod" finished-at="2024-05-19T15:46:01 MMT" duration-ms="939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="checkSuccessfulLogin()[pri:0, instance:QAAutomationExercise.Scripts.CheckSuccessfulLogin@7e7be63f]" started-at="2024-05-19T15:46:01 MMT" name="checkSuccessfulLogin" finished-at="2024-05-19T15:46:03 MMT" duration-ms="1997" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkSuccessfulLogin -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.CheckSuccessfulLogin@7e7be63f]" started-at="2024-05-19T15:46:03 MMT" name="afterClass" finished-at="2024-05-19T15:46:04 MMT" duration-ms="285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- QAAutomationExercise.Scripts.CheckSuccessfulLogin -->
-      <class name="QAAutomationExercise.Scripts.SortByPrice_LowtoHigh">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_LowtoHigh@543588e6]" started-at="2024-05-19T15:46:11 MMT" name="beforeClass" finished-at="2024-05-19T15:46:12 MMT" duration-ms="1162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_LowtoHigh@543588e6]" started-at="2024-05-19T15:46:12 MMT" name="beforeMethod" finished-at="2024-05-19T15:46:13 MMT" duration-ms="1068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="sortByPrice_LowtoHigh()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_LowtoHigh@543588e6]" started-at="2024-05-19T15:46:13 MMT" name="sortByPrice_LowtoHigh" finished-at="2024-05-19T15:46:16 MMT" duration-ms="3193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortByPrice_LowtoHigh -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.SortByPrice_LowtoHigh@543588e6]" started-at="2024-05-19T15:46:16 MMT" name="afterClass" finished-at="2024-05-19T15:46:16 MMT" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- QAAutomationExercise.Scripts.SortByPrice_LowtoHigh -->
-      <class name="QAAutomationExercise.Scripts.CheckLogoutSuccessful">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.CheckLogoutSuccessful@58695725]" started-at="2024-05-19T15:46:04 MMT" name="beforeClass" finished-at="2024-05-19T15:46:05 MMT" duration-ms="1247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.CheckLogoutSuccessful@58695725]" started-at="2024-05-19T15:46:05 MMT" name="beforeMethod" finished-at="2024-05-19T15:46:06 MMT" duration-ms="1023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="checkLogoutSuccessful()[pri:0, instance:QAAutomationExercise.Scripts.CheckLogoutSuccessful@58695725]" started-at="2024-05-19T15:46:06 MMT" name="checkLogoutSuccessful" finished-at="2024-05-19T15:46:10 MMT" duration-ms="4459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogoutSuccessful -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.CheckLogoutSuccessful@58695725]" started-at="2024-05-19T15:46:10 MMT" name="afterClass" finished-at="2024-05-19T15:46:11 MMT" duration-ms="306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- QAAutomationExercise.Scripts.CheckLogoutSuccessful -->
-      <class name="QAAutomationExercise.Scripts.ValidateLockedOutUser">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.ValidateLockedOutUser@5d7148e2]" started-at="2024-05-19T15:46:31 MMT" name="beforeClass" finished-at="2024-05-19T15:46:32 MMT" duration-ms="1188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.ValidateLockedOutUser@5d7148e2]" started-at="2024-05-19T15:46:32 MMT" name="beforeMethod" finished-at="2024-05-19T15:46:33 MMT" duration-ms="1076" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validateLockedOutUser()[pri:0, instance:QAAutomationExercise.Scripts.ValidateLockedOutUser@5d7148e2]" started-at="2024-05-19T15:46:33 MMT" name="validateLockedOutUser" finished-at="2024-05-19T15:46:35 MMT" duration-ms="1854" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLockedOutUser -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.ValidateLockedOutUser@5d7148e2]" started-at="2024-05-19T15:46:35 MMT" name="afterClass" finished-at="2024-05-19T15:46:35 MMT" duration-ms="256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- QAAutomationExercise.Scripts.ValidateLockedOutUser -->
-      <class name="QAAutomationExercise.Scripts.Purchase2Items">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.Purchase2Items@f5acb9d]" started-at="2024-05-19T15:46:16 MMT" name="beforeClass" finished-at="2024-05-19T15:46:18 MMT" duration-ms="1320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.Purchase2Items@f5acb9d]" started-at="2024-05-19T15:46:18 MMT" name="beforeMethod" finished-at="2024-05-19T15:46:19 MMT" duration-ms="1759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="purchase2Items()[pri:0, instance:QAAutomationExercise.Scripts.Purchase2Items@f5acb9d]" started-at="2024-05-19T15:46:19 MMT" name="purchase2Items" finished-at="2024-05-19T15:46:25 MMT" duration-ms="5652" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- purchase2Items -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.Purchase2Items@f5acb9d]" started-at="2024-05-19T15:46:25 MMT" name="afterClass" finished-at="2024-05-19T15:46:25 MMT" duration-ms="289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- QAAutomationExercise.Scripts.Purchase2Items -->
+    <test started-at="2024-05-19T15:58:42 MMT" name="Default test" finished-at="2024-05-19T15:58:56 MMT" duration-ms="14437">
       <class name="QAAutomationExercise.Scripts.LogCheckoutSummary">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@6e16b8b5]" started-at="2024-05-19T15:46:35 MMT" name="beforeClass" finished-at="2024-05-19T15:46:37 MMT" duration-ms="1108" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T15:58:42 MMT" name="beforeClass" finished-at="2024-05-19T15:58:45 MMT" duration-ms="2983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@6e16b8b5]" started-at="2024-05-19T15:46:37 MMT" name="beforeMethod" finished-at="2024-05-19T15:46:38 MMT" duration-ms="1009" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T15:58:45 MMT" name="beforeMethod" finished-at="2024-05-19T15:58:48 MMT" duration-ms="3433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="logCheckoutSummary()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@6e16b8b5]" started-at="2024-05-19T15:46:38 MMT" name="logCheckoutSummary" finished-at="2024-05-19T15:46:43 MMT" duration-ms="5036" status="PASS">
+        <test-method signature="logCheckoutSummary()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T15:58:48 MMT" name="logCheckoutSummary" finished-at="2024-05-19T15:58:56 MMT" duration-ms="7536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logCheckoutSummary -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@6e16b8b5]" started-at="2024-05-19T15:46:43 MMT" name="afterClass" finished-at="2024-05-19T15:46:43 MMT" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:QAAutomationExercise.Scripts.LogCheckoutSummary@21005f6c]" started-at="2024-05-19T15:58:56 MMT" name="afterClass" finished-at="2024-05-19T15:58:56 MMT" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- QAAutomationExercise.Scripts.LogCheckoutSummary -->
-    </test> <!-- PurchasefromOnlineShop -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
