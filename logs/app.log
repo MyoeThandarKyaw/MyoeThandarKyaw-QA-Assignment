@@ -1,37 +1,37 @@
-2024-05-19 15:58:51.488 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - loginUserName => standard_user
-2024-05-19 15:58:51.496 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - loginPassword => secret_sauce
-2024-05-19 15:58:51.496 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - login online shop website
-2024-05-19 15:58:51.568 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Online Shop Name => Swag Labs
-2024-05-19 15:58:53.100 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Sorting from High to Low Price
-2024-05-19 15:58:53.204 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - First Item Price => $15.99
-2024-05-19 15:58:53.284 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Second Item Price => $15.99
-2024-05-19 15:58:53.512 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Click Add to cart button for Item 1
-2024-05-19 15:58:53.702 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Click Add to cart button for Item 2
-2024-05-19 15:58:53.937 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Click Checkout icon
-2024-05-19 15:58:54.184 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Click Checkout Button
-2024-05-19 15:58:55.242 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Buyer Information 
-2024-05-19 15:58:55.243 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - First Name => Myoe Thandar
-2024-05-19 15:58:55.243 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Last Name => Kyaw
-2024-05-19 15:58:55.244 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - PostalCode => +95
-2024-05-19 15:58:55.587 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Click Continue Button
-2024-05-19 15:58:55.588 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Choose Item Information => 
-2024-05-19 15:58:55.711 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - First Item Information => 1
+2024-05-23 23:06:44.235 [main] INFO  clickCheckoutButton.LogCheckoutSummary - loginUserName => standard_user
+2024-05-23 23:06:44.254 [main] INFO  clickCheckoutButton.LogCheckoutSummary - loginPassword => secret_sauce
+2024-05-23 23:06:44.255 [main] INFO  clickCheckoutButton.LogCheckoutSummary - login online shop website
+2024-05-23 23:06:44.311 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Online Shop Name => Swag Labs
+2024-05-23 23:06:45.611 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Sorting from High to Low Price
+2024-05-23 23:06:45.663 [main] INFO  clickCheckoutButton.LogCheckoutSummary - First Item Price => $15.99
+2024-05-23 23:06:45.704 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Second Item Price => $15.99
+2024-05-23 23:06:45.830 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Click Add to cart button for Item 1
+2024-05-23 23:06:45.929 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Click Add to cart button for Item 2
+2024-05-23 23:06:46.073 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Click Checkout icon
+2024-05-23 23:06:46.207 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Click Checkout Button
+2024-05-23 23:06:46.677 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Buyer Information 
+2024-05-23 23:06:46.677 [main] INFO  clickCheckoutButton.LogCheckoutSummary - First Name => Myoe Thandar
+2024-05-23 23:06:46.677 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Last Name => Kyaw
+2024-05-23 23:06:46.677 [main] INFO  clickCheckoutButton.LogCheckoutSummary - PostalCode => +95
+2024-05-23 23:06:46.816 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Click Continue Button
+2024-05-23 23:06:46.816 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Choose Item Information => 
+2024-05-23 23:06:46.864 [main] INFO  clickCheckoutButton.LogCheckoutSummary - First Item Information => 1
 Sauce Labs Bolt T-Shirt
 Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
 $15.99
-2024-05-19 15:58:55.818 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Second Item Information => 1
+2024-05-23 23:06:46.904 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Second Item Information => 1
 Test.allTheThings() T-Shirt (Red)
 This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
 $15.99
-2024-05-19 15:58:55.819 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Payment Information:
-2024-05-19 15:58:55.925 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - SauceCard #31337
-2024-05-19 15:58:55.925 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Shipping Information:
-2024-05-19 15:58:56.027 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Free Pony Express Delivery!
-2024-05-19 15:58:56.028 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Price Total:
-2024-05-19 15:58:56.112 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Item total: $31.98
-2024-05-19 15:58:56.167 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Tax: $2.56
-2024-05-19 15:58:56.212 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Total: $34.54
-2024-05-19 15:58:56.280 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - TotalAmount on website => 31.98
-2024-05-19 15:58:56.280 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - ActualTotalAmount => 31.98
-2024-05-19 15:58:56.395 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Click Finish Button
-2024-05-19 15:58:56.450 [main] INFO  QAAutomationExercise.Scripts.LogCheckoutSummary - Verify purchase complete => Thank you for your order!
+2024-05-23 23:06:46.904 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Payment Information:
+2024-05-23 23:06:46.947 [main] INFO  clickCheckoutButton.LogCheckoutSummary - SauceCard #31337
+2024-05-23 23:06:46.947 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Shipping Information:
+2024-05-23 23:06:46.995 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Free Pony Express Delivery!
+2024-05-23 23:06:46.996 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Price Total:
+2024-05-23 23:06:47.042 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Item total: $31.98
+2024-05-23 23:06:47.087 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Tax: $2.56
+2024-05-23 23:06:47.134 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Total: $34.54
+2024-05-23 23:06:47.188 [main] INFO  clickCheckoutButton.LogCheckoutSummary - TotalAmount on website => 31.98
+2024-05-23 23:06:47.188 [main] INFO  clickCheckoutButton.LogCheckoutSummary - ActualTotalAmount => 31.98
+2024-05-23 23:06:47.307 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Click Finish Button
+2024-05-23 23:06:47.358 [main] INFO  clickCheckoutButton.LogCheckoutSummary - Verify purchase complete => Thank you for your order!

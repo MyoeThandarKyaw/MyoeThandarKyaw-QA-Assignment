@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="PurchasefromOnlineShop">
+  <test thread-count="5" name="testng.xml">
     <classes>
-      <class name="QAAutomationExercise.Scripts.CheckSuccessfulLogin"/>
-      <class name="QAAutomationExercise.Scripts.CheckLogoutSuccessful"/>
-      <class name="QAAutomationExercise.Scripts.SortByPrice_LowtoHigh"/>
-      <class name="QAAutomationExercise.Scripts.Purchase2Items"/>
-      <class name="QAAutomationExercise.Scripts.SortByPrice_HightoLow"/>
-      <class name="QAAutomationExercise.Scripts.ValidateLockedOutUser"/>
-      <class name="QAAutomationExercise.Scripts.LogCheckoutSummary"/>
+      <class name="clickCheckoutButton.SortByPrice_LowtoHigh"/>
+      <class name="clickCheckoutButton.CheckLogoutSuccessful"/>
+      <class name="clickCheckoutButton.LogCheckoutSummary"/>
+      <class name="clickCheckoutButton.CheckSuccessfulLogin"/>
+      <class name="clickCheckoutButton.SortByPrice_HightoLow"/>
+      <class name="clickCheckoutButton.Purchase2Items"/>
+      <class name="clickCheckoutButton.ValidateLockedOutUser"/>
     </classes>
-  </test> <!-- PurchasefromOnlineShop -->
+  </test> <!-- testng.xml -->
 </suite> <!-- Suite -->
