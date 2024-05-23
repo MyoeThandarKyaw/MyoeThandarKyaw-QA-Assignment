@@ -17,9 +17,6 @@ public class Purchase2Items {
 	public static final String loginPassword = "secret_sauce";
 	public static final String expectedOnlineShopName = "Swag Labs";
 	public static final String expectedPrice = "$15.99";
-	public static final String first_Name = "Myoe Thandar";
-	public static final String last_Name = "Kyaw";
-	public static final String postal_Code = "+95";
 	public static final String expectedMessage = "Thank you for your order!";
 	Login_page login_page;
 	Home_page home_page;
@@ -113,7 +110,7 @@ public class Purchase2Items {
 		home_page.clickFinishButton();
 
 		// to verify purchase complete
-		String actualMessage = driver.findElement(By.xpath("//h2[@class='complete-header']")).getText();
+		String actualMessage = home_page.getPurchaseCompleteMessage(); 
 		System.out.println("ActualMessage ==== " + actualMessage);
 		Assert.assertEquals(actualMessage, expectedMessage);
 

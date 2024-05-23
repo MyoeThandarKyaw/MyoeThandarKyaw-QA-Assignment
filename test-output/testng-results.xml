@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-23T23:13:38 MMT" name="Default suite" finished-at="2024-05-23T23:13:49 MMT" duration-ms="10622">
+  <suite started-at="2024-05-23T23:23:02 MMT" name="Default suite" finished-at="2024-05-23T23:23:10 MMT" duration-ms="7111">
     <groups>
     </groups>
-    <test started-at="2024-05-23T23:13:38 MMT" name="Default test" finished-at="2024-05-23T23:13:49 MMT" duration-ms="10622">
+    <test started-at="2024-05-23T23:23:02 MMT" name="Default test" finished-at="2024-05-23T23:23:10 MMT" duration-ms="7111">
       <class name="clickCheckoutButton.Purchase2Items">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:13:38 MMT" name="beforeClass" finished-at="2024-05-23T23:13:41 MMT" duration-ms="2279" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:23:02 MMT" name="beforeClass" finished-at="2024-05-23T23:23:04 MMT" duration-ms="1307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:13:41 MMT" name="beforeMethod" finished-at="2024-05-23T23:13:43 MMT" duration-ms="1912" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:23:04 MMT" name="beforeMethod" finished-at="2024-05-23T23:23:05 MMT" duration-ms="906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="purchase2Items()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:13:43 MMT" name="purchase2Items" finished-at="2024-05-23T23:13:48 MMT" duration-ms="5941" status="PASS">
+        <test-method signature="purchase2Items()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:23:05 MMT" name="purchase2Items" finished-at="2024-05-23T23:23:09 MMT" duration-ms="4635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchase2Items -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:13:49 MMT" name="afterClass" finished-at="2024-05-23T23:13:49 MMT" duration-ms="419" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:clickCheckoutButton.Purchase2Items@7205765b]" started-at="2024-05-23T23:23:09 MMT" name="afterClass" finished-at="2024-05-23T23:23:10 MMT" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

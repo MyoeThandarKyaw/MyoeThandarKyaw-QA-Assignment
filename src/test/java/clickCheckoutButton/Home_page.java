@@ -53,9 +53,12 @@ public class Home_page {
 
 	@FindBy(className = "summary_subtotal_label")
 	public WebElement totalAmountonWebsite;
-	
+
 	@FindBy(id = "finish")
 	public WebElement finishButton;
+
+	@FindBy(xpath = "//h2[@class='complete-header']")
+	public WebElement purchaseCompleteMessage;
 
 	public Home_page(WebDriver driver) {
 		this.driver = driver;
@@ -136,15 +139,20 @@ public class Home_page {
 
 	}
 
-	//getTotalAmountonWebsite 
+	// getTotalAmountonWebsite
 	public String getTotalAmountonWebsite() {
 		return totalAmountonWebsite.getText();
 	}
-	
-	// click on continue button
-		public void clickFinishButton() {
-			finishButton.click();
 
-		}
+	// click finish button
+	public void clickFinishButton() {
+		finishButton.click();
+
+	}
+
+	// getPurchaseCompleteMessage
+	public String getPurchaseCompleteMessage() {
+		return purchaseCompleteMessage.getText();
+	}
 
 }
