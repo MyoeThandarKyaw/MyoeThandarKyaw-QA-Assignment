@@ -3,13 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="testng.xml">
     <classes>
-      <class name="clickCheckoutButton.SortByPrice_LowtoHigh"/>
-      <class name="clickCheckoutButton.CheckLogoutSuccessful"/>
-      <class name="clickCheckoutButton.LogCheckoutSummary"/>
-      <class name="clickCheckoutButton.CheckSuccessfulLogin"/>
-      <class name="clickCheckoutButton.SortByPrice_HightoLow"/>
-      <class name="clickCheckoutButton.Purchase2Items"/>
-      <class name="clickCheckoutButton.ValidateLockedOutUser"/>
+      <class name="scripts.SortByPrice_LowtoHigh"/>
+      <class name="scripts.CheckLogoutSuccessful"/>
+      <class name="scripts.LogCheckoutSummary"/>
+      <class name="scripts.CheckSuccessfulLogin"/>
+      <class name="scripts.SortByPrice_HightoLow"/>
+      <class name="scripts.Purchase2Items"/>
+      <class name="scripts.ValidateLockedOutUser"/>
     </classes>
   </test> <!-- testng.xml -->
 </suite> <!-- Suite -->

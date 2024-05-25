@@ -2,7 +2,7 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="QAAutomationExercise.Scripts.SortByPrice_HightoLow"/>
+      <class name="scripts.SortByPrice_HightoLow"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

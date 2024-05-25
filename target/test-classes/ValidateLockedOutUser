@@ -2,7 +2,7 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="QAAutomationExercise.Scripts.ValidateLockedOutUser"/>
+      <class name="scripts.ValidateLockedOutUser"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -2,7 +2,7 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="QAAutomationExercise.Scripts.CheckSuccessfulLogin"/>
+      <class name="scripts.CheckSuccessfulLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
