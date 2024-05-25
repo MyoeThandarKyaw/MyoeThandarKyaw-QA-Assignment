@@ -35,3 +35,40 @@ $15.99
 2024-05-25 12:52:21.230 [main] INFO  scripts.LogCheckoutSummary - ActualTotalAmount => 31.98
 2024-05-25 12:52:21.290 [main] INFO  scripts.LogCheckoutSummary - Click Finish Button
 2024-05-25 12:52:21.324 [main] INFO  scripts.LogCheckoutSummary - Verify purchase complete => Thank you for your order!
+2024-05-25 14:01:11.722 [main] INFO  scripts.LogCheckoutSummary - loginUserName => standard_user
+2024-05-25 14:01:11.729 [main] INFO  scripts.LogCheckoutSummary - loginPassword => secret_sauce
+2024-05-25 14:01:11.729 [main] INFO  scripts.LogCheckoutSummary - login online shop website
+2024-05-25 14:01:11.794 [main] INFO  scripts.LogCheckoutSummary - Online Shop Name => Swag Labs
+2024-05-25 14:01:12.053 [main] INFO  scripts.LogCheckoutSummary - Sorting from High to Low Price
+2024-05-25 14:01:12.099 [main] INFO  scripts.LogCheckoutSummary - First Item Price => $15.99
+2024-05-25 14:01:12.141 [main] INFO  scripts.LogCheckoutSummary - Second Item Price => $15.99
+2024-05-25 14:01:12.253 [main] INFO  scripts.LogCheckoutSummary - Click Add to cart button for Item 1
+2024-05-25 14:01:12.369 [main] INFO  scripts.LogCheckoutSummary - Click Add to cart button for Item 2
+2024-05-25 14:01:12.498 [main] INFO  scripts.LogCheckoutSummary - Click Checkout icon
+2024-05-25 14:01:12.633 [main] INFO  scripts.LogCheckoutSummary - Click Checkout Button
+2024-05-25 14:01:13.103 [main] INFO  scripts.LogCheckoutSummary - Buyer Information 
+2024-05-25 14:01:13.103 [main] INFO  scripts.LogCheckoutSummary - First Name => Myoe Thandar
+2024-05-25 14:01:13.104 [main] INFO  scripts.LogCheckoutSummary - Last Name => Kyaw
+2024-05-25 14:01:13.104 [main] INFO  scripts.LogCheckoutSummary - PostalCode => +95
+2024-05-25 14:01:13.249 [main] INFO  scripts.LogCheckoutSummary - Click Continue Button
+2024-05-25 14:01:13.250 [main] INFO  scripts.LogCheckoutSummary - Choose Item Information 
+2024-05-25 14:01:13.288 [main] INFO  scripts.LogCheckoutSummary - First Item Information => 1
+Sauce Labs Bolt T-Shirt
+Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+$15.99
+2024-05-25 14:01:13.343 [main] INFO  scripts.LogCheckoutSummary - Second Item Information => 1
+Test.allTheThings() T-Shirt (Red)
+This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+$15.99
+2024-05-25 14:01:13.343 [main] INFO  scripts.LogCheckoutSummary - Payment Information:
+2024-05-25 14:01:13.385 [main] INFO  scripts.LogCheckoutSummary - SauceCard #31337
+2024-05-25 14:01:13.386 [main] INFO  scripts.LogCheckoutSummary - Shipping Information:
+2024-05-25 14:01:13.431 [main] INFO  scripts.LogCheckoutSummary - Free Pony Express Delivery!
+2024-05-25 14:01:13.431 [main] INFO  scripts.LogCheckoutSummary - Price Total:
+2024-05-25 14:01:13.480 [main] INFO  scripts.LogCheckoutSummary - Item total: $31.98
+2024-05-25 14:01:13.525 [main] INFO  scripts.LogCheckoutSummary - Tax: $2.56
+2024-05-25 14:01:13.572 [main] INFO  scripts.LogCheckoutSummary - Total: $34.54
+2024-05-25 14:01:13.622 [main] INFO  scripts.LogCheckoutSummary - TotalAmount on website => 31.98
+2024-05-25 14:01:13.623 [main] INFO  scripts.LogCheckoutSummary - ActualTotalAmount => 31.98
+2024-05-25 14:01:13.720 [main] INFO  scripts.LogCheckoutSummary - Click Finish Button
+2024-05-25 14:01:13.772 [main] INFO  scripts.LogCheckoutSummary - Verify purchase complete => Thank you for your order!

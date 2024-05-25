@@ -2,132 +2,132 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-25T12:52:05 MMT" name="Suite" finished-at="2024-05-25T12:52:40 MMT" duration-ms="35409">
+  <suite started-at="2024-05-25T14:00:51 MMT" name="Suite" finished-at="2024-05-25T14:01:35 MMT" duration-ms="43681">
     <groups>
     </groups>
-    <test started-at="2024-05-25T12:52:05 MMT" name="testng.xml" finished-at="2024-05-25T12:52:40 MMT" duration-ms="35409">
+    <test started-at="2024-05-25T14:00:51 MMT" name="testng.xml" finished-at="2024-05-25T14:01:35 MMT" duration-ms="43681">
       <class name="scripts.SortByPrice_LowtoHigh">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T12:52:05 MMT" name="beforeClass" finished-at="2024-05-25T12:52:06 MMT" duration-ms="1252" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T14:00:51 MMT" name="beforeClass" finished-at="2024-05-25T14:00:54 MMT" duration-ms="3128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T12:52:06 MMT" name="beforeMethod" finished-at="2024-05-25T12:52:07 MMT" duration-ms="956" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T14:00:54 MMT" name="beforeMethod" finished-at="2024-05-25T14:00:56 MMT" duration-ms="1357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sortByPrice_LowtoHigh()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T12:52:07 MMT" name="sortByPrice_LowtoHigh" finished-at="2024-05-25T12:52:10 MMT" duration-ms="2818" status="PASS">
+        <test-method signature="sortByPrice_LowtoHigh()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T14:00:56 MMT" name="sortByPrice_LowtoHigh" finished-at="2024-05-25T14:00:59 MMT" duration-ms="3409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPrice_LowtoHigh -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T12:52:10 MMT" name="afterClass" finished-at="2024-05-25T12:52:10 MMT" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.SortByPrice_LowtoHigh@5acf93bb]" started-at="2024-05-25T14:00:59 MMT" name="afterClass" finished-at="2024-05-25T14:01:00 MMT" duration-ms="587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- scripts.SortByPrice_LowtoHigh -->
       <class name="scripts.SortByPrice_HightoLow">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T12:52:25 MMT" name="beforeClass" finished-at="2024-05-25T12:52:26 MMT" duration-ms="724" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T14:01:18 MMT" name="beforeClass" finished-at="2024-05-25T14:01:19 MMT" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T12:52:26 MMT" name="beforeMethod" finished-at="2024-05-25T12:52:27 MMT" duration-ms="1185" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T14:01:19 MMT" name="beforeMethod" finished-at="2024-05-25T14:01:20 MMT" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sortByPrice_HightoLow()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T12:52:27 MMT" name="sortByPrice_HightoLow" finished-at="2024-05-25T12:52:30 MMT" duration-ms="2834" status="PASS">
+        <test-method signature="sortByPrice_HightoLow()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T14:01:20 MMT" name="sortByPrice_HightoLow" finished-at="2024-05-25T14:01:24 MMT" duration-ms="3324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPrice_HightoLow -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T12:52:30 MMT" name="afterClass" finished-at="2024-05-25T12:52:30 MMT" duration-ms="492" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.SortByPrice_HightoLow@1d1f7216]" started-at="2024-05-25T14:01:24 MMT" name="afterClass" finished-at="2024-05-25T14:01:24 MMT" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- scripts.SortByPrice_HightoLow -->
       <class name="scripts.ValidateLockedOutUser">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T12:52:37 MMT" name="beforeClass" finished-at="2024-05-25T12:52:38 MMT" duration-ms="725" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T14:01:31 MMT" name="beforeClass" finished-at="2024-05-25T14:01:32 MMT" duration-ms="1231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T12:52:38 MMT" name="beforeMethod" finished-at="2024-05-25T12:52:38 MMT" duration-ms="840" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T14:01:32 MMT" name="beforeMethod" finished-at="2024-05-25T14:01:33 MMT" duration-ms="936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateLockedOutUser()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T12:52:38 MMT" name="validateLockedOutUser" finished-at="2024-05-25T12:52:40 MMT" duration-ms="1550" status="PASS">
+        <test-method signature="validateLockedOutUser()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T14:01:33 MMT" name="validateLockedOutUser" finished-at="2024-05-25T14:01:35 MMT" duration-ms="1740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLockedOutUser -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T12:52:40 MMT" name="afterClass" finished-at="2024-05-25T12:52:40 MMT" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.ValidateLockedOutUser@6e16b8b5]" started-at="2024-05-25T14:01:35 MMT" name="afterClass" finished-at="2024-05-25T14:01:35 MMT" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- scripts.ValidateLockedOutUser -->
       <class name="scripts.CheckSuccessfulLogin">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T12:52:21 MMT" name="beforeClass" finished-at="2024-05-25T12:52:22 MMT" duration-ms="750" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T14:01:14 MMT" name="beforeClass" finished-at="2024-05-25T14:01:15 MMT" duration-ms="1127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T12:52:22 MMT" name="beforeMethod" finished-at="2024-05-25T12:52:23 MMT" duration-ms="1472" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T14:01:15 MMT" name="beforeMethod" finished-at="2024-05-25T14:01:16 MMT" duration-ms="940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkSuccessfulLogin()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T12:52:23 MMT" name="checkSuccessfulLogin" finished-at="2024-05-25T12:52:25 MMT" duration-ms="1552" status="PASS">
+        <test-method signature="checkSuccessfulLogin()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T14:01:16 MMT" name="checkSuccessfulLogin" finished-at="2024-05-25T14:01:18 MMT" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSuccessfulLogin -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T12:52:25 MMT" name="afterClass" finished-at="2024-05-25T12:52:25 MMT" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.CheckSuccessfulLogin@592e843a]" started-at="2024-05-25T14:01:18 MMT" name="afterClass" finished-at="2024-05-25T14:01:18 MMT" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- scripts.CheckSuccessfulLogin -->
       <class name="scripts.LogCheckoutSummary">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T12:52:16 MMT" name="beforeClass" finished-at="2024-05-25T12:52:16 MMT" duration-ms="768" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T14:01:07 MMT" name="beforeClass" finished-at="2024-05-25T14:01:08 MMT" duration-ms="1143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T12:52:16 MMT" name="beforeMethod" finished-at="2024-05-25T12:52:17 MMT" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T14:01:08 MMT" name="beforeMethod" finished-at="2024-05-25T14:01:09 MMT" duration-ms="908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="logCheckoutSummary()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T12:52:17 MMT" name="logCheckoutSummary" finished-at="2024-05-25T12:52:21 MMT" duration-ms="3554" status="PASS">
+        <test-method signature="logCheckoutSummary()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T14:01:09 MMT" name="logCheckoutSummary" finished-at="2024-05-25T14:01:13 MMT" duration-ms="3867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logCheckoutSummary -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T12:52:21 MMT" name="afterClass" finished-at="2024-05-25T12:52:21 MMT" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.LogCheckoutSummary@305f031]" started-at="2024-05-25T14:01:13 MMT" name="afterClass" finished-at="2024-05-25T14:01:14 MMT" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- scripts.LogCheckoutSummary -->
       <class name="scripts.CheckLogoutSuccessful">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T12:52:10 MMT" name="beforeClass" finished-at="2024-05-25T12:52:11 MMT" duration-ms="761" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T14:01:00 MMT" name="beforeClass" finished-at="2024-05-25T14:01:01 MMT" duration-ms="1151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T12:52:11 MMT" name="beforeMethod" finished-at="2024-05-25T12:52:12 MMT" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T14:01:01 MMT" name="beforeMethod" finished-at="2024-05-25T14:01:03 MMT" duration-ms="1693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkLogoutSuccessful()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T12:52:12 MMT" name="checkLogoutSuccessful" finished-at="2024-05-25T12:52:15 MMT" duration-ms="3847" status="PASS">
+        <test-method signature="checkLogoutSuccessful()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T14:01:03 MMT" name="checkLogoutSuccessful" finished-at="2024-05-25T14:01:07 MMT" duration-ms="4376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogoutSuccessful -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T12:52:15 MMT" name="afterClass" finished-at="2024-05-25T12:52:16 MMT" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.CheckLogoutSuccessful@618425b5]" started-at="2024-05-25T14:01:07 MMT" name="afterClass" finished-at="2024-05-25T14:01:07 MMT" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- scripts.CheckLogoutSuccessful -->
       <class name="scripts.Purchase2Items">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T12:52:30 MMT" name="beforeClass" finished-at="2024-05-25T12:52:31 MMT" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T14:01:24 MMT" name="beforeClass" finished-at="2024-05-25T14:01:25 MMT" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T12:52:31 MMT" name="beforeMethod" finished-at="2024-05-25T12:52:32 MMT" duration-ms="1103" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T14:01:25 MMT" name="beforeMethod" finished-at="2024-05-25T14:01:27 MMT" duration-ms="1127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="purchase2Items()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T12:52:32 MMT" name="purchase2Items" finished-at="2024-05-25T12:52:37 MMT" duration-ms="4426" status="PASS">
+        <test-method signature="purchase2Items()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T14:01:27 MMT" name="purchase2Items" finished-at="2024-05-25T14:01:30 MMT" duration-ms="3768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchase2Items -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T12:52:37 MMT" name="afterClass" finished-at="2024-05-25T12:52:37 MMT" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.Purchase2Items@423e4cbb]" started-at="2024-05-25T14:01:30 MMT" name="afterClass" finished-at="2024-05-25T14:01:31 MMT" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

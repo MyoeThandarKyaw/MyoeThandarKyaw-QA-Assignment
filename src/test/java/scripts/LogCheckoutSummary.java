@@ -63,7 +63,7 @@ public class LogCheckoutSummary {
 		logger.info("Online Shop Name => " + actualOnlineShopName);
 		
 		// wait 1 second
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 
 		//Choose option to sort
 		home_page.sortByPriceHightoLow();

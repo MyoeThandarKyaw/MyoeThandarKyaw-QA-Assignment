@@ -52,13 +52,8 @@ public class Purchase2Items {
 		Assert.assertEquals(login_page.getActualOnlineShopName(), expectedOnlineShopName);
 
 		// wait 1 second
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		
-		
-//		String beforesort1 = home_page.getFirstPurchaseItemPrice();
-//		System.out.println("firstItemPrice ==== " + beforesort1);
-//		String beforesort2 = home_page.getSecondPurchaseItemPrice();
-//		System.out.println("firstItemPrice ==== " + beforesort2);
 		// Choose option to sort
 		home_page.sortByPriceHightoLow();
 
