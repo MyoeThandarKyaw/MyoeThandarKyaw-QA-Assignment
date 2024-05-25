@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -92,11 +91,11 @@ public class LogCheckoutSummary {
 				
 
 		// Click first Add to Cart button
-		driver.findElement(By.xpath("(//button[text()='Add to cart'])[3]")).click();
+		home_page.clickAddtoCartButtonforFirstItem();
 		logger.info("Click Add to cart button for Item 1");
 
 		// Click first Add to Cart button
-		driver.findElement(By.xpath("(//button[text()='Add to cart'])[3]")).click();
+		home_page.clickAddtoCartButtonforSecondItem();
 		logger.info("Click Add to cart button for Item 2");
 
 		// Click Checkout icon
