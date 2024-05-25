@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
@@ -101,21 +100,16 @@ public class LogCheckoutSummary {
 		logger.info("Click Add to cart button for Item 2");
 
 		// Click Checkout icon
-		driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
+		home_page.clickCheckoutIcon();
 		logger.info("Click Checkout icon");
 		
 		
 		// Click Checkout button
-		driver.findElement(By.id("checkout")).click();
+		home_page.clickCheckoutButton();
 		logger.info("Click Checkout Button");
 
 		// fill require information
-		WebElement firstName = driver.findElement(By.id("first-name"));
-		firstName.sendKeys(first_Name);
-		WebElement lastName = driver.findElement(By.id("last-name"));
-		lastName.sendKeys(last_Name);
-		WebElement postalCode = driver.findElement(By.id("postal-code"));
-		postalCode.sendKeys(postal_Code);
+		home_page.fillAllRequireInformation();
 
 		logger.info("Buyer Information ");
 		logger.info("First Name => " + first_Name);
@@ -124,24 +118,23 @@ public class LogCheckoutSummary {
 		
 
 		// Click Continue button
-		driver.findElement(By.id("continue")).click();
+		home_page.clickContinueButton();
 		logger.info("Click Continue Button");
 		
-		logger.info("Choose Item Information => ");
-		logger.info("First Item Information => "+driver.findElement(By.xpath("(//div[@class='cart_item'])[1]")).getText());
-		logger.info("Second Item Information => "+driver.findElement(By.xpath("(//div[@class='cart_item'])[2]")).getText());
+		logger.info("Choose Item Information ");
+		logger.info("First Item Information => "+ home_page.getFirstItemAllInformation());
+		logger.info("Second Item Information => "+home_page.getSecondItemAllInformation());
 		logger.info("Payment Information:");
-		logger.info(driver.findElement(By.xpath("//div[@class='summary_value_label'][1]")).getText());
+		logger.info(home_page.getPaymentInformation());
 		logger.info("Shipping Information:");
-		logger.info(driver.findElement(By.xpath("//div[@class='summary_value_label'][2]")).getText());
+		logger.info(home_page.getShippingInformation());
 		logger.info("Price Total:");
-		logger.info(driver.findElement(By.xpath("//div[@class='summary_subtotal_label']")).getText());
-		logger.info(driver.findElement(By.xpath("//div[@class='summary_tax_label']")).getText());
-		logger.info(driver.findElement(By.xpath("//div[@class='summary_total_label']")).getText());
+		logger.info(home_page.getSummarySubTotal());
+		logger.info(home_page.getSummaryTax());
+		logger.info(home_page.getSummaryTotal());
 		
 		// Check total amount is the same as Total amount = Price1+Price2
-		//String totalAmount = driver.findElement(By.xpath("//div[@class='summary_subtotal_label']")).getText();
-		String totalAmount = driver.findElement(By.className("summary_subtotal_label")).getText();
+		String totalAmount = home_page.getTotalAmountonWebsite();
 		double totalAmountonWebsite = Double.parseDouble(totalAmount.split("(\\$ | \\$\\s*)")[1]);
 		System.out.println("TotalAmount on website==== " + totalAmountonWebsite);
 		logger.info("TotalAmount on website => "+totalAmountonWebsite);
@@ -155,11 +148,11 @@ public class LogCheckoutSummary {
 		Assert.assertEquals(totalAmountonWebsite, actualTotalAmount);
 
 		// Click finish button
-		driver.findElement(By.id("finish")).click();
+		home_page.clickFinishButton();
 		logger.info("Click Finish Button");
 
 		// to verify purchase complete
-		String actualMessage = driver.findElement(By.xpath("//h2[@class='complete-header']")).getText();
+		String actualMessage = home_page.getPurchaseCompleteMessage(); 
 		System.out.println("actualMessage ==== " + actualMessage);
 		Assert.assertEquals(actualMessage, expectedMessage);
 		logger.info("Verify purchase complete => " + actualMessage);

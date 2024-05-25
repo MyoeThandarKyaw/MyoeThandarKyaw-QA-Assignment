@@ -27,10 +27,10 @@ public class Home_page {
 	@FindBy(xpath = "(//div[@class='inventory_item_price'])[4]")
 	public WebElement secondPurchaseItemPrice;
 
-	@FindBy(xpath = "(//button[text()='Add to cart'])[3]")
+	@FindBy(xpath = "(//div[@class='pricebar']//button)[3]")
 	public WebElement addtoCartButtonforFirstItem;
 
-	@FindBy(xpath = "(//button[text()='Add to cart'])[3]")
+	@FindBy(xpath = "(//div[@class='pricebar']//button)[4]")
 	public WebElement addtoCartButtonforSecondItem;
 
 	@FindBy(xpath = "//a[@class='shopping_cart_link']")
@@ -60,6 +60,30 @@ public class Home_page {
 	@FindBy(xpath = "//h2[@class='complete-header']")
 	public WebElement purchaseCompleteMessage;
 
+	@FindBy(xpath = "(//div[@class='cart_item'])[1]")
+	public WebElement firstItemAllInformation;
+
+	@FindBy(xpath = "(//div[@class='cart_item'])[2]")
+	public WebElement secondItemAllInformation;
+
+	@FindBy(xpath = "//div[@class='summary_value_label'][1]")
+	public WebElement paymentInformation;
+
+	@FindBy(xpath = "//div[@class='summary_value_label'][2]")
+	public WebElement shippingInformation;
+
+	@FindBy(xpath = "//div[@class='summary_subtotal_label']")
+	public WebElement summarySubTotal;
+
+	@FindBy(xpath = "//div[@class='summary_tax_label']")
+	public WebElement summaryTax;
+
+	@FindBy(xpath = "//div[@class='summary_total_label']")
+	public WebElement summaryTotal;
+
+//	@FindBy(xpath = "(//button[text()='Add to cart'])[3]")
+//	public WebElement addToCartButton;
+	
 	public Home_page(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -155,4 +179,38 @@ public class Home_page {
 		return purchaseCompleteMessage.getText();
 	}
 
+	// getfirstItemAllInformation
+	public String getFirstItemAllInformation() {
+		return firstItemAllInformation.getText();
+	}
+
+	// getfirstItemAllInformation
+	public String getSecondItemAllInformation() {
+		return secondItemAllInformation.getText();
+	}
+
+	// getPaymentInformation
+	public String getPaymentInformation() {
+		return paymentInformation.getText();
+	}
+
+	// getShippingInformation
+	public String getShippingInformation() {
+		return shippingInformation.getText();
+	}
+
+	// getSummarySubTotal
+	public String getSummarySubTotal() {
+		return summarySubTotal.getText();
+	}
+
+	// getSummaryTax
+	public String getSummaryTax() {
+		return summaryTax.getText();
+	}
+
+	// getSummaryTotal
+	public String getSummaryTotal() {
+		return summaryTotal.getText();
+	}
 }

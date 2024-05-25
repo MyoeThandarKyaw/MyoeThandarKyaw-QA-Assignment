@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scripts.CheckSuccessfulLogin">
+      <class name="scripts.Purchase2Items">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="checkSuccessfulLogin"/>
           <include name="afterClass"/>
+          <include name="purchase2Items"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- scripts.CheckSuccessfulLogin -->
+      </class> <!-- scripts.Purchase2Items -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
